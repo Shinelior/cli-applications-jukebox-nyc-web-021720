@@ -1,0 +1,33 @@
+while    user_command == "play" || user_command == "exit" ||user_command == "help" || user_command == "list"
+ 
+  if  user_command == "play" 
+      retur_play = play(songs)
+   if   retur_play == /Invalid input, please try again/
+       user_command = gets.strip
+     else
+        exit_jukebox
+        break
+      end 
+  end    
+       
+        
+      if user_command == "list"
+       list(songs)
+       exit_jukebox
+       break
+    end
+    if user_command == "help"
+       help 
+       exit_jukebox
+       break
+     end
+  if user_command == "exit"
+      exit_jukebox
+       break
+    
+end
+user_command = gets.strip
+end
+
+  
+end  
