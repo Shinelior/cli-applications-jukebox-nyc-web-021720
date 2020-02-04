@@ -24,11 +24,11 @@ user_song = gets.strip
 # binding.pry
 if user_song.to_i == song_number
  
-    return  puts "/playing #{song}/"
+    return  puts "/Playing #{song}/"
     
   elsif user_song == song
    
- return puts "/playing #{song}/"
+ return puts "/Playing #{song}/"
    
  else
   return puts  /Invalid input, please try again/
