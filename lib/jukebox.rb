@@ -71,7 +71,7 @@ def run(songs)
   
   while user_command == "list" || user_command == "exit" || user_command == "play" || user_command == "help"
         
-  binding.pry 
+
   if  user_command == "play"
      #puts  "/Please enter a song name or number:/"
    # user_song = gets.strip
