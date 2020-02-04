@@ -69,7 +69,7 @@ def run(songs)
  puts  "Please enter a command:"
   user_command = gets.strip
   
-  while user_command == "help" || user_command == "exit" || user_command == "play" || user_command == ""
+  while user_command == "list" || user_command == "exit" || user_command == "play" || user_command == "help"
         
   binding.pry 
   if  user_command == "play"
